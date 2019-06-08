@@ -1,0 +1,40 @@
+id,Eclipse,IntelliJ,VsCode,action
+1,Alt+Shift+J,/** or Alt+Shift+S,?,create documentation
+2,F4,ctrl+h,?,show the type hierarchy
+3,ctrl+alt+g,ctrl+alt+F7,?,find usages
+4,ctrl+shift+u,ctrl+f7,,finds the usages in the same file
+5,alt+shift+r,shift+F6,,rename
+6,ctrl+shift+r,ctrl+shift+N,,find file / open resource
+7,ctrl+shift+x, j,ctrl+shift+F10,run (java program)
+8,ctrl+shift+o,ctrl+alt+o,,organize imports
+9,ctrl+o,ctrl+F12,,show current file structure / outline
+10,ctrl+shift+m,ctrl+alt+V,,create local variable refactoring
+11,syso ctrl+space,sout ctrj+j,,System.out.println(â€œâ€)
+12,alt+up/down,ctrl+shift+up/down,,move lines
+13,ctrl+d,ctrl+y,Ctrl+shift+k,delete current line
+14,???,alt+h,?,show subversion history
+15,ctrl+h,ctrl+shift+f,,search (find in path)
+16,â€œsemiâ€ set in window-> preferences,ctrl+shift+enter,,if I want to add the semi-colon at the end of a statement
+17,ctrl+1 or ctrl+shift+l,ctrl+alt+v,,introduce local variable
+18,alt+shift+s,alt+insert,,generate getters / setters
+19,ctrl+shift+f,ctrl+alt+l,Ctrl+shift+i,format code
+20,ctrl+y,ctrl+shift+z,,redo
+21,ctrl+shift+c,ctrl+/,,comment out lines (my own IDEA shortcut definition for comment/uncomment on german keyboard layout on laptop: ctrl+shift+y)
+22,ctrl+alt+h,ctrl+alt+h (same!),,show call hierarchy
+23,none ?,ctrl+alt+f7,,to jump to one of the callers of a method
+24,ctrl+shift+i,alt+f8,,evaluate expression (in debugger)
+25,F3,ctrl+b,,go to declaration (e.g. go to method)
+26,ctrl+l,ctrl+g,,go to line
+27,main,psvm,,create main method
+28,???,fori,,create for each lop
+29,link with editor,Autoscroll from Source,,source file you are viewing in the current tab will be highlighted and have its package expanded in the Package Explorer view.
+30,Ctrl+T,Ctrl+alt+b,,Navigate to Implementation
+31,???,Ctrl+U ,,Go to super declaration
+32,,f2,,next code issue
+33,,shift+f2,,previous code issue
+34,,Alt+J,Ctrl+D,Add Selection for Next Occurrence
+35,alt+left/right,,,Go to previously edited lass
+36,ctrl+shift+t,,,open type
+37,ctrl+e,,,list all open editors
+38,ctrl+i,,,correct indentation
+39,ctrl+j,,,incremental search
