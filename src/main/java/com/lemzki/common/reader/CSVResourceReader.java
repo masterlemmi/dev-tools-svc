@@ -23,9 +23,9 @@ public class CSVResourceReader implements ResourceReader<CsvData> {
 
         try {
 
-            File file = new ClassPathResource(filename).getFile();
+            InputStream is = new ClassPathResource(filename).getInputStream();
 
-            Reader in = new FileReader(file);
+            Reader in = new BufferedReader(new InputStreamReader(is));
 
             CSVFormat format = CSVFormat.DEFAULT.withFirstRecordAsHeader();
 
